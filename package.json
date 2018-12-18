@@ -1,0 +1,8 @@
+{
+  "name": "simple-node-ddd-cqrs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pierre Criulanscy <pcriulan+git@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
