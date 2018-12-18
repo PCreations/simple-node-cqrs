@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`feature : sending a message given a db containing few users and a chat with id "chat42" when "user42" sends a message in the "chat42" then the message should appear in the message list of the "chat42": chat43 should be empty but chat42 should have the message from user42 1`] = `
+Object {
+  "chat42": Array [
+    Object {
+      "content": "It's the very first message !",
+      "sentAt": 1545130856133,
+      "user": "User 42",
+    },
+  ],
+}
+`;

@@ -4,5 +4,16 @@
   "main": "index.js",
   "author": "Pierre Criulanscy <pcriulan+git@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "invariant": "^2.2.4",
+    "jest": "^23.6.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "test": "jest __tests__.*.test.js$ --verbose"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
